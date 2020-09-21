@@ -1,0 +1,150 @@
+{
+  "id": "2af8931b-9295-4b57-8f48-334498d12d34",
+  "version": "2.0",
+  "name": "SeleniumIDE_Registration",
+  "url": "http://selenium1py.pythonanywhere.com/",
+  "tests": [{
+    "id": "1752996c-a1e6-425e-8ab6-79d14bdf7737",
+    "name": "Registration",
+    "commands": [{
+      "id": "2f5a7b28-c05b-4d7b-b192-c4ba89ae75f5",
+      "comment": "",
+      "command": "open",
+      "target": "http://selenium1py.pythonanywhere.com/ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0edb7402-15fe-4bd0-8a04-6591f37bc909",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee397227-382b-4e63-a988-6f163b50f843",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_link",
+      "targets": [
+        ["id=login_link", "id"],
+        ["linkText=Войти или зарегистрироваться", "linkText"],
+        ["css=#login_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти или зарегистрироваться')]", "xpath:link"],
+        ["xpath=//a[@id='login_link']", "xpath:attributes"],
+        ["xpath=//div[@id='top_page']/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ru/accounts/login/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Войти или зарегистрироваться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2893b9-d2a6-4a26-aeff-2e2d82423356",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_registration-email",
+      "targets": [
+        ["id=id_registration-email", "id"],
+        ["name=registration-email", "name"],
+        ["css=#id_registration-email", "css:finder"],
+        ["xpath=//input[@id='id_registration-email']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4719936d-ea29-47d7-b8eb-206476cc6ab6",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_registration-email",
+      "targets": [
+        ["id=id_registration-email", "id"],
+        ["name=registration-email", "name"],
+        ["css=#id_registration-email", "css:finder"],
+        ["xpath=//input[@id='id_registration-email']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "2222@mailinator.com"
+    }, {
+      "id": "a47a0fa8-8aa9-44ae-8968-c94bf20ea71f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_registration-password1",
+      "targets": [
+        ["id=id_registration-password1", "id"],
+        ["name=registration-password1", "name"],
+        ["css=#id_registration-password1", "css:finder"],
+        ["xpath=//input[@id='id_registration-password1']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec89dca-f485-4185-8d61-6ea8acff9fe0",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_registration-password1",
+      "targets": [
+        ["id=id_registration-password1", "id"],
+        ["name=registration-password1", "name"],
+        ["css=#id_registration-password1", "css:finder"],
+        ["xpath=//input[@id='id_registration-password1']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "qwerty666666"
+    }, {
+      "id": "cc6904c9-32f6-433e-b0e7-83758ecf292e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_registration-password2",
+      "targets": [
+        ["id=id_registration-password2", "id"],
+        ["name=registration-password2", "name"],
+        ["css=#id_registration-password2", "css:finder"],
+        ["xpath=//input[@id='id_registration-password2']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0acf88d7-96ee-4539-92df-c066934152e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_registration-password2",
+      "targets": [
+        ["id=id_registration-password2", "id"],
+        ["name=registration-password2", "name"],
+        ["css=#id_registration-password2", "css:finder"],
+        ["xpath=//input[@id='id_registration-password2']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "qwerty666666"
+    }, {
+      "id": "fa044d4d-a588-42a0-99b1-ba5c8cd1367d",
+      "comment": "",
+      "command": "click",
+      "target": "name=registration_submit",
+      "targets": [
+        ["name=registration_submit", "name"],
+        ["css=#register_form > .btn", "css:finder"],
+        ["xpath=//button[@name='registration_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зарегистрироваться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c573458-cba2-40fe-91f4-dad99a6cc8cf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://selenium1py.pythonanywhere.com/"],
+  "plugins": []
+}
