@@ -14,12 +14,11 @@ def test_check_btn_add_to_basket(browser):
 	
 	#Act
 	browser.find_element_by_css_selector(all_goods).click()
-	first_item = browser.find_element_by_css_selector(first_of_all_goods)  # берем первый в списке товар
+	first_item = browser.find_element_by_css_selector(first_of_all_goods) 
 	title_of_first_item = first_item.get_attribute('title')
 	first_item.click()
 	
 	#Assert
-	#Проверяем наличие элемента на странице
 		
 	assert browser.find_element_by_class_name(btn_add_to_basket).text != (''), "No button add to basket"
 
